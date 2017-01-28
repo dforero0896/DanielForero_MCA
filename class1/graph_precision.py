@@ -15,4 +15,5 @@ ax.plot(singleData[:,0], singleData[:,1], "-.", lw=2, label="Single precision fl
 ax.plot(doubleData[:,0], doubleData[:,1], "-.", lw=2, label="Double precision float")
 plt.legend()
 #plt.show()
+plt.gcf()
 plt.savefig("precision.png")
